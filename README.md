@@ -9,3 +9,5 @@ You can write markdown in the right side and see it rendered live in Github styl
 Oh and you can hit tab while editing and actually get an indent instead of losing focus on the textarea.
 
 yeah thats basically it for now.
+
+##The real documentation is in the [Demo](http://robincwillis.github.io/robo-markdown/)

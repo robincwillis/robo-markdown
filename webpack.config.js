@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: process.env.NODE_ENV === 'production' ? path.join(__dirname, 'dist') : path.join(__dirname, 'build'),
     filename: 'bundle.js',
-    publicPath: '/static/'
+    publicPath: '/dist/'
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

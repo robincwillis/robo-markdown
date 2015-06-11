@@ -3,11 +3,18 @@
 var React = require('react');
 
 import './Editor.css';
+//import './fixture';
+
 
 module.exports = React.createClass({
 
 	getInitialState: function() {
-		return {value: ""};
+		var example = require("./fixture.js");
+		return {value: example};
+	},
+
+	componentDidMount: function () {
+	    this.handleKeyUp();
 	},
 
 	render: function(){
