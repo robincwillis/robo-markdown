@@ -1,0 +1,22 @@
+.editor{
+		background: tan;
+		padding:0;
+}
+
+.editor > textarea{
+		width:100%;
+		height:100%;
+		padding:40px;
+		font-size: 14px;
+		font-family: monaco, Consolas, 'Lucida Console', monospace;
+		letter-spacing: 0.075em;
+		background: #eee;
+		color:#777;
+		border:none;
+		border-left: 1px solid #777;
+}
+
+
+textarea:focus, input:focus { outline: none; }
+
+
